@@ -2,21 +2,20 @@
 
 .login-box {
     width: 100%;
-    min-height: 100vh;
-    
-  }
-  
+    min-height: 100vh; 
+  } 
 .bg-red{
   background-color: #ED7633;
 }
 .btn-hover:hover{
-
 border-radius: 5px !important;
 transition: 350ms;
-
 padding: 0.75rem 5rem !important;
 }
-  
+ 
+.link-hover :hover{
+  text-decoration: underline;
+}
 .txt-red{
   color:#ED7633;
 }
