@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import {  Modal,  ModalBody,  } from 'reactstrap';
 export default function Login(args) {
     const [modal, setModal] = React.useState(false);
 
@@ -32,7 +32,7 @@ export default function Login(args) {
       <div className="row">
         <div className="col-md-8 login-box bg-red text-light d-flex flex-column justify-content-end pb-5 ps-5 ">
           <h2 className="fw-bold">Signin with Sosin Classes</h2>
-          <a href="./" className="link-light text-decoration-none">
+          <a href="./" className="link-light">
             <h4 className="fw-light">
               <b>Home</b>
             </h4>
