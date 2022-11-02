@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.login-box {
+    width: 100%;
+    min-height: 100vh; 
+  } 
+.bg-red{
+  background-color: #ED7633;
+}
+.btn-hover:hover{
+border-radius: 5px !important;
+transition: 350ms;
+padding: 0.75rem 5rem !important;
+}
+ 
+.link-hover :hover{
+  text-decoration: underline;
+}
+.txt-red{
+  color:#ED7633;
+}
+.txt-grey{
+  color:#ABAFB3;
+}
+.logo-img{
+width:2.5rem;
+height:2.5rem;
+}  
+.outline-red{
+  outline: 6px solid #ED7633 !important;
+}
+.out-trans{
+  outline: 6px solid #ED7633 !important;
+  border: 8px solid transparent!important;
+  
+}
+.br-none{
+  margin-top: 7rem !important;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
