@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+.my-font{
+  font-family: 'Open Sans';
+}
 .login-box {
-    width: 100%;
-    min-height: 100vh; 
+  width: 100%;
+  min-height: 100vh; 
   } 
 .bg-red{
   background-color: #ED7633;
@@ -17,7 +19,7 @@ padding: 0.75rem 5rem !important;
   text-decoration: underline;
 }
 .txt-red{
-  color:#ED7633;
+  color:#ED7633 !important;
 }
 .txt-grey{
   color:#ABAFB3;
@@ -32,13 +34,68 @@ height:2.5rem;
 .out-trans{
   outline: 6px solid #ED7633 !important;
   border: 8px solid transparent!important;
-  
 }
 .br-none{
   margin-top: 7rem !important;
 }
 
-  
+/* About us css */
+.black-text
+{
+  color: rgba(59, 59, 59, 0.98)!important;
+  font-size: 14px !important;
+}
+.red-blob{
+  background-color:#ED7633 ;
+  height:40px;
+  width:40px;
+}
+.mx-7{
+  margin-left: 5rem;
+  margin-right : 5rem;
+}
+.fs-12{
+  font-size: 14px !important;
+}
+.pd{
+  padding-top: none !important;
+}
+.cs-font500{
+  font-weight: 500;
+  font-size:2.5rem;
+}
+.ms-a{
+  margin-left: 10rem !important;
+}
+.text-align{
+  text-align: justify;
+}
+.bg-lt-red{
+background-color: rgb(254, 247, 243) !important;
+}
+
+
+.txt-black{
+  color: rgba(59, 59, 59, 0.98)!important;
+}
+.sz-18{
+  font-size:18px;
+}
+.m-18{
+  /* margin: 3rem 5rem auto 5rem; */
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+.fs-13{
+  font-size: 13px;
+}
+hr{
+  /* border-top: 10px solid #ED7633 !important; */
+  border-top: 3px solid #ED7633 !important;
+}
+.txt-lt-black{
+  color: rgba(59, 59, 59, 0.68)!important;
+}
   
   
   
