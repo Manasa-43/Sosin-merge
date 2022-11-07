@@ -1,6 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fa} from "@fortawesome/free-solid-svg-icons";
+// import { fa } from "@fortawesome/free-solid-svg-icons";
+import {faYoutube,faFacebook,faInstagram,faTwitter,} from "@fortawesome/free-brands-svg-icons"
+
 // import { faTwitter, faFontAwesome,  } from '@fortawesome/free-brands-svg-icons'
 // import { fa } from "@fortawesome/free-solid-svg-icons";
 export default function AboutUs() {
@@ -38,7 +40,10 @@ export default function AboutUs() {
             <span className="navbar-toggler-icon"></span>
           </button>
           {/* <div className="d-flex justify-content-end border border-warning"> */}
-          <div className=" collapse navbar-collapse justify-content-end " id="navbarNav">
+          <div
+            className=" collapse navbar-collapse justify-content-end "
+            id="navbarNav"
+          >
             <ul className="navbar-nav justify-content-end ">
               <li className="nav-item ps-4">
                 <a className="nav-link fw-bold black-text " href="#">
@@ -170,17 +175,35 @@ export default function AboutUs() {
         <div className="container">
           <div className="row ">
             <div className="col-md-9 mt-5 px-5">
+              {/* <div className="col-md-9 mt-5 px-5"> */}
               <div>
                 <h3 className="txt-black fw-bold sz-18">UPSC Courses</h3>
               </div>
 
-              <div className="d-flex justify-content-start list-unstyled pt-3">
-                <p className=" txt-black fs-13 pe-5">General Studies</p>
-                <p className=" txt-black fs-13 pe-5">Anthropology</p>
-                <p className=" txt-black fs-13 pe-5">Test Series</p>
-                <p className=" txt-black fs-13 pe-5"> Mentorship</p>
+              {/* <div className="d-flex justify-content-start list-unstyled pt-3 "> */}
+              <div>
+                <ul className=" list-group list-group-horizontal-sm  ">
+                  <li className=" list-group-item border-0 bg-lt-red ps-0 pe-5">
+                    <p className=" txt-black fs-13 ">General Studies</p>
+                  </li>
+                  <li className="list-group-item border-0 bg-lt-red  ps-0 pe-5">
+                    <p className=" txt-black fs-13 ">Anthropology</p>
+                  </li>
+                  <li className="list-group-item border-0 bg-lt-red ps-0 pe-5">
+                    <p className=" txt-black fs-13 ">Test Series</p>
+                  </li>
+                  <li className="list-group-item border-0 bg-lt-red ps-0 pe-5">
+                    <p className=" txt-black fs-13 ">Mentorship</p>
+                  </li>
+                </ul>
+                {/* <ol className="list-group d-flex flex-row bg-lt-red  ">
+                  <li className="list-group-item border-0">A list item</li>
+                  <li className="list-group-item">A list item</li>
+                  <li className="list-group-item">A list item</li>
+                </ol> */}
               </div>
             </div>
+            {/* <div className="col-md-3 mt-5 px-5"> */}
             <div className="col-md-3 mt-5 px-5">
               <div>
                 <h3 className="txt-black fw-bold sz-18">Sosin Classes</h3>
@@ -202,33 +225,62 @@ export default function AboutUs() {
               <hr />
             </div>
           </div>
-          <div className="row">
+          <div className="row pb-5">
             <div className="col-6 px-5 ">
               <p className="fs-12 txt-lt-black ">
                 © Erasmus Training Services Pvt. Ltd.2022
               </p>
             </div>
             <div className="col-6 ">
-              <div className="fs-12 ">
-                <a href="#" className="text-decoration-none ps-4">
-                  Help
-                </a>
-                <a href="#" className="text-decoration-none ps-4">
-                  Privacy
-                </a>
-                <a href="#" className="text-decoration-none ps-4">
-                  Terms
-                </a>
-                {/* <a href="#" className="text-decoration-none ps-3">
-                  <FontAwesomeIcon icon={faEye} />
-                  <i class="fab fa-facebook-f"/>
-                </a>
-                <a href="#" className="text-decoration-none">
-                  Terms
-                </a>
-                <a href="#" className="text-decoration-none">
-                  Terms
-                </a> */}
+              <div className="d-flex flex-sm-column flex-lg-row">
+                <ul className=" list-group list-group-horizontal-sm ">
+                  <li className="list-group-item border-0 bg-lt-red px-2 fs-12">
+                    {/* <a href="#" className="text-decoration-none ps-4"> */}
+                    <a href="#" className="text-decoration-none ">
+                      Help
+                    </a>
+                  </li>
+                  <li className="list-group-item border-0 bg-lt-red px-2 fs-12">
+                    <a href="#" className="text-decoration-none ">
+                      Privacy
+                    </a>
+                  </li>
+                  <li className="list-group-item border-0 bg-lt-red px-2 fs-12">
+                    <a href="#" className="text-decoration-none ">
+                      Terms
+                    </a>
+                  </li>
+                  </ul>
+                  <ul className=" list-unstyled list-group list-group-horizontal-sm">
+                    {/* <FontAwesomeIcon icon={ faUser}></FontAwesomeIcon> */}
+                    <li className="px-2 fs-12">
+                      <FontAwesomeIcon
+                        icon={faFacebook}
+                        className="icon-bg fa-x"
+                      />
+                    </li>
+                    <li className="px-2 fs-12">
+                      <FontAwesomeIcon
+                        icon={faTwitter}
+                        className="icon-bg fa-x "
+                      />
+                    </li>
+                    <li className="px-2 fs-12">
+                      <FontAwesomeIcon
+                        icon={faYoutube}
+                        className=" icon-bg fa-x  "
+                      />
+                    </li>
+                    
+                    <li className="px-2 fs-12">
+                      <FontAwesomeIcon
+                        icon={faInstagram}
+                        className="icon-bg fa-x "
+                      />
+                    </li>
+                    
+                  </ul>
+               
               </div>
             </div>
           </div>
